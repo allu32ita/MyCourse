@@ -25,8 +25,8 @@ namespace MyCourse
                 app.UseDeveloperExceptionPage();
             }
 
-
-            app.a
+            app.UseMvc();
+            app.UseMvcWithDefaultRoute();
 
             app.Run(async (context) =>
             {
