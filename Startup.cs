@@ -25,6 +25,9 @@ namespace MyCourse
                 app.UseDeveloperExceptionPage();
             }
 
+
+            app.a
+
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
