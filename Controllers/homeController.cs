@@ -4,9 +4,9 @@ namespace MyCourse.Controllers
 {
     public class homeController : Controller
     {
-        public IActionResult index()
+        public IActionResult Index()
         {
-            return Content("sono indexssssss");
+            return View();
         }
     }
 }
