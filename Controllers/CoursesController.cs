@@ -6,9 +6,9 @@ namespace MyCourse.Controllers
     {
         public IActionResult index()
         {
-            return Content("sono index");
+            return Content("sono index courses xontroller");
         }
-        public IActionResult Detail(string id)
+        public IActionResult detail(string id)
         {
             return Content("sono detail, ho ricev " + id);
         }
