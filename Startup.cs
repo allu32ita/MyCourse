@@ -25,8 +25,7 @@ namespace MyCourse
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
-            app.UseMvcWithDefaultRoute();
+            app.UseStaticFiles();
 
             app.Run(async (context) =>
             {
