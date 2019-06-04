@@ -33,7 +33,6 @@ namespace MyCourse
                 });
                 
             }
-
             app.UseStaticFiles();
 
             //app.UseMvcWithDefaultRoute();
