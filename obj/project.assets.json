@@ -1654,11 +1654,11 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Data.Sqlite/3.0.0-preview5.19227.1": {
+      "Microsoft.Data.Sqlite/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "3.0.0-preview5.19227.1",
-          "SQLitePCLRaw.bundle_e_sqlite3": "1.1.12"
+          "Microsoft.Data.Sqlite.Core": "2.2.4",
+          "SQLitePCLRaw.bundle_green": "1.1.12"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1667,7 +1667,7 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.Data.Sqlite.Core/3.0.0-preview5.19227.1": {
+      "Microsoft.Data.Sqlite.Core/2.2.4": {
         "type": "package",
         "dependencies": {
           "SQLitePCLRaw.core": "1.1.12"
@@ -2999,7 +2999,7 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_e_sqlite3/1.1.12": {
+      "SQLitePCLRaw.bundle_green/1.1.12": {
         "type": "package",
         "dependencies": {
           "SQLitePCLRaw.core": "1.1.12",
@@ -3009,11 +3009,11 @@
           "SQLitePCLRaw.provider.e_sqlite3.netstandard11": "1.1.12"
         },
         "compile": {
-          "lib/netcoreapp/SQLitePCLRaw.batteries_e_sqlite3.dll": {},
+          "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll": {},
           "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp/SQLitePCLRaw.batteries_e_sqlite3.dll": {},
+          "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll": {},
           "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
@@ -6014,28 +6014,28 @@
         "version.txt"
       ]
     },
-    "Microsoft.Data.Sqlite/3.0.0-preview5.19227.1": {
-      "sha512": "rKdXaYnPhaKnqvBswX7K2Q7IgzLWz27GnO+LMj69Hau213yCHQIS1jb+8q63vjkt4JnDqzjdtb2XTcgH3SM+Zw==",
+    "Microsoft.Data.Sqlite/2.2.4": {
+      "sha512": "QgYDdW07QZUyZPwisIU3Db62FnK6Yfcuru7KAsHusLGstJ0kBIXFnG185PcWmm2ba4AN0ab1iwrhXZr/9Yxj0w==",
       "type": "package",
-      "path": "microsoft.data.sqlite/3.0.0-preview5.19227.1",
+      "path": "microsoft.data.sqlite/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/_._",
-        "microsoft.data.sqlite.3.0.0-preview5.19227.1.nupkg.sha512",
+        "microsoft.data.sqlite.2.2.4.nupkg.sha512",
         "microsoft.data.sqlite.nuspec"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/3.0.0-preview5.19227.1": {
-      "sha512": "q/2mdHPlMRYC7l83g0ED9nfr+9STn/i4BU0HkK7m10hahRw5UdcpxRDcNVgp3sHjLBVbi9z20HjeKnl0QRPqtg==",
+    "Microsoft.Data.Sqlite.Core/2.2.4": {
+      "sha512": "69DJj8bUJpXPfWpmJ/Sh165GWjLjlL516l0GnJDImabfR+leXb61HaQF97THWvyx5yY7MvpO94QW5nyiXMVOAA==",
       "type": "package",
-      "path": "microsoft.data.sqlite.core/3.0.0-preview5.19227.1",
+      "path": "microsoft.data.sqlite.core/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.3.0.0-preview5.19227.1.nupkg.sha512",
+        "microsoft.data.sqlite.core.2.2.4.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
@@ -7841,51 +7841,51 @@
         "version.txt"
       ]
     },
-    "SQLitePCLRaw.bundle_e_sqlite3/1.1.12": {
-      "sha512": "S3eJftnfXbHnbPPuwet2S4frSAuTcQ8F1zFRhpsnHeGaFlgXuUDFO4/DEnHr22ece6RT7l1bafWAUSuQHGYMFA==",
+    "SQLitePCLRaw.bundle_green/1.1.12": {
+      "sha512": "U5lZv+E0JBCG5uQngaRgyIAlbzIwRczb0m46XJfLGXovtfVOaMNRY/oGyKAJjdexVrfqLRd+JyopGMySpAZRGQ==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_e_sqlite3/1.1.12",
+      "path": "sqlitepclraw.bundle_green/1.1.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/wp8/SQLitePCLRaw.bundle_e_sqlite3.targets",
-        "build/wp80/arm/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "build/wp8/SQLitePCLRaw.bundle_green.targets",
+        "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
         "build/wp80/arm/SQLitePCLRaw.batteries_v2.dll",
-        "build/wp80/x86/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_green.dll",
         "build/wp80/x86/SQLitePCLRaw.batteries_v2.dll",
-        "lib/MonoAndroid/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_green.dll",
         "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll",
-        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_green.dll",
         "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_v2.dll",
-        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
         "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
-        "lib/net35/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/net35/SQLitePCLRaw.batteries_green.dll",
         "lib/net35/SQLitePCLRaw.batteries_v2.dll",
-        "lib/net40/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/net40/SQLitePCLRaw.batteries_green.dll",
         "lib/net40/SQLitePCLRaw.batteries_v2.dll",
-        "lib/net45/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/net45/SQLitePCLRaw.batteries_green.dll",
         "lib/net45/SQLitePCLRaw.batteries_v2.dll",
-        "lib/netcoreapp/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll",
         "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll",
-        "lib/netstandard1.1/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll",
         "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll",
-        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
         "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
-        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
         "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
-        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
         "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
-        "lib/uap10.0/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_green.dll",
         "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll",
-        "lib/win8/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/win8/SQLitePCLRaw.batteries_green.dll",
         "lib/win8/SQLitePCLRaw.batteries_v2.dll",
-        "lib/win81/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/win81/SQLitePCLRaw.batteries_green.dll",
         "lib/win81/SQLitePCLRaw.batteries_v2.dll",
         "lib/wp8/_._",
-        "lib/wpa81/SQLitePCLRaw.batteries_e_sqlite3.dll",
+        "lib/wpa81/SQLitePCLRaw.batteries_green.dll",
         "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_e_sqlite3.1.1.12.nupkg.sha512",
-        "sqlitepclraw.bundle_e_sqlite3.nuspec"
+        "sqlitepclraw.bundle_green.1.1.12.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
       ]
     },
     "SQLitePCLRaw.core/1.1.12": {
@@ -12384,7 +12384,7 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.Data.SQLite >= 3.0.0-preview5.19227.1",
+      "Microsoft.Data.SQLite >= 2.2.4",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -12445,7 +12445,7 @@
           },
           "Microsoft.Data.SQLite": {
             "target": "Package",
-            "version": "[3.0.0-preview5.19227.1, )"
+            "version": "[2.2.4, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
